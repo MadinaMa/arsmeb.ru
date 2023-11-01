@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(101,104,111);
+}
+.carousel-item {
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.back {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+@media all and (max-width: 800px) {
+    .carousel-item {
+        margin-left: 5px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .d-block {
+        width: 405px;
+    }
+}
+
+
+
